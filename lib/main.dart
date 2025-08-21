@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sta_project/utils/app_colors.dart';
+import 'package:sta_project/view/screens/Home/My_Tasks.dart';
+import 'package:sta_project/view/screens/Home/Tasks_Details.dart';
+import 'package:sta_project/view/screens/Home/bottom_view.dart';
 import 'package:sta_project/view/screens/Verify_Email.dart';
 import 'package:sta_project/view/screens/Verify_OTP.dart';
 import 'package:sta_project/view/screens/log_in.dart';
@@ -38,7 +41,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.AppBackground),
       ),
-      home: SetPassword()
+      home: TasksDetails()
     );
   }
 }

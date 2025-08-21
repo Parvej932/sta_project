@@ -42,6 +42,7 @@ class _SetPasswordState extends State<SetPassword> {
                 SizedBox(height: 5),
                 CustomTextField(
                     hintText: "••••••••",
+
                     suffixIcon: Icons.visibility_off
                 ),
 
